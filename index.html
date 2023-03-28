@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+    
+<head >
+    <link rel="stylesheet" href="style.css">
+    <title>World Canvas</title>
+    <link rel="shortcut icon" type="image/x-icon" href="Media/favicon (1).ico">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="World of worlds">
+</head> 
+
+<body>  
+
+   <div class="circle">
+       <div class="logo"></div>
+       <div class="text">
+           <a href="https://worldcanvas.bandcamp.com/album/happens-on-venus">| New Release: Happens on Venus by World of Canvas | Out Now </a>
+       </div>
+   </div> 
+    
+
+<script>
+    const text = document.querySelector('.text a');
+    text.innerHTML = text.innerText.split("").map(
+       (char, i)=>
+       `<span style="transform:rotate(${i* 2.2}deg)">${char}</span>`
+    ).join("")
+</script>
+
+   <div id="info">
+    <p>World Canvas is a cross-discilipnary platform for unconfined expressions of emotion. We strive to provide a home for artists on the fringes and backlots of contemporary art. World Canvas is a blank surface, open to host audiovisual. Explorations, fictional fantasies and outcries of yerning.</info>
+   </div>
+
+     <div id="some">
+        <info>
+            <a href="https://worldcanvas.bandcamp.com/music">Bandcamp</a>
+            <a href="https://soundcloud.com/worldcanvas">Soundcloud</a>
+            <a href="https://www.instagram.com/worldcanvas_/">Instagram</a>
+            <a href="https://www.instagram.com/worldcanvas_/">Discord</a>
+            <a href="mailto:worldcanvas.platform@gmail.com ">Contact</a>
+        </info>
+    </div>
+    <div id="tiedot">
+        <info>©</info>
+        <info>All rights reserved</info>
+    </div>
+
+    <div id="info">
+        <p>Website by <a href="https://www.instagram.com/1999.group/">XXX</a></p>
+    </div>
+
+</body>
+</html>

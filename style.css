@@ -30,7 +30,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgb(255, 0, 255); /* Color behing background image */
+  background-color: rgb(255, 234, 0); /* Color behing background image */
 }
 
 /* Hides scrollbar */

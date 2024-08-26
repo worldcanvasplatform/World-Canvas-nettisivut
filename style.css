@@ -26,11 +26,11 @@ body {
 
 /* Background  */
 body {
-  background-image: url(Media/neptune.jpg); /* Background Image */
+  background-image: url(Media/Piano_WebsiteBanner.png); /* Background Image */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgb(255, 234, 0); /* Color behing background image */
+  background-color: rgb(255, 255, 255); /* Color behing background image */
 }
 
 /* Hides scrollbar */
